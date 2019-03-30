@@ -1,0 +1,22 @@
+## VSCode
+.vscode
+
+## Dist
+dist
+
+# Node
+node_modules
+*.log
+.nvm
+coverage
+
+# Jest
+.jest
+.coverage
+
+## OSX
+.DS_Store
+
+## Fastlane
+fastlane/test_output
+fastlane/report.xml

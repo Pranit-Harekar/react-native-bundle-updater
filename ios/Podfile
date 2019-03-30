@@ -1,0 +1,28 @@
+platform :ios, '9.0'
+
+target 'ReactNativeBundleUpdater' do
+  use_frameworks!
+  pod 'SwiftLint'
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'Core',
+    'cxxreact',
+    'CxxBridge',
+    'DevSupport',
+    'RCTText',
+    'RCTImage',
+    'RCTNetwork',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTWebSocket',
+    'RCTLinkingIOS'
+    ]
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+
+  target 'ReactNativeBundleUpdaterTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+end
