@@ -1,8 +1,6 @@
 ![react-native-bundle-updater](https://user-images.githubusercontent.com/17886017/55283012-16a12400-5327-11e9-991d-e5de07e2db72.png)
 
-# react-native-bundle-updater
-
-A client side library for dynamically updating jsbundles in React Native apps
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Goals
 
