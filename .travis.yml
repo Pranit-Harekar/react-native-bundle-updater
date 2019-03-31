@@ -1,0 +1,18 @@
+branches:
+  only:
+    - master
+    - dev
+
+matrix:
+  include:
+    - language: node_js
+      node_js:
+        - '10.15'
+      before_install:
+        - node --version
+        - npm install -g yarn
+        - yarn install
+      script:
+        - yarn test
+      cache:
+        - yarn
