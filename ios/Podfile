@@ -2,6 +2,7 @@ platform :ios, '9.0'
 
 target 'ReactNativeBundleUpdater' do
   use_frameworks!
+  pod 'Alamofire', '~> 4.7'
   pod 'SwiftLint'
   pod 'React', :path => '../node_modules/react-native', :subspecs => [
     'Core',
@@ -20,6 +21,8 @@ target 'ReactNativeBundleUpdater' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
 
   target 'ReactNativeBundleUpdaterTests' do
     inherit! :search_paths

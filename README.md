@@ -1,6 +1,8 @@
 ![react-native-bundle-updater](https://user-images.githubusercontent.com/17886017/55283012-16a12400-5327-11e9-991d-e5de07e2db72.png)
 
-[![Build Status](https://travis-ci.com/Pranit-Harekar/dispatch.svg?branch=master)](https://travis-ci.com/Pranit-Harekar/dispatch) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.com/Pranit-Harekar/react-native-bundle-updater.svg?branch=master)](https://travis-ci.com/Pranit-Harekar/react-native-bundle-updater) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+<p align="center"> ⚠️work-in-progress ⚠️ </p>
 
 ## Goals
 
