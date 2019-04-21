@@ -32,7 +32,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCTBridgeDelegate {
         #if DEBUG
         return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
         #else
-        return Bundle.main.url(forResource: "main", withExtension: "jsbundle")
+        return BundleUpdater.sharedInstance.bundleURL!
         #endif
     }
 

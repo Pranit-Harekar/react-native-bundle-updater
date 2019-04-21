@@ -19,6 +19,8 @@ export interface IMetadata {
 }
 
 export default class ReactNativeBundleUpdater {
+  private syncState: ISyncState = 'UP_TO_DATE'
+
   public constructor(
     public metadata: IMetadata,
     public checkFrequency: IUpdateCheckFrequency,
@@ -26,7 +28,6 @@ export default class ReactNativeBundleUpdater {
     public useCellularData = false,
     public showProgress = true,
     public showUpdateDialog = true,
-    private syncState: ISyncState = 'UP_TO_DATE',
   ) {
     this.setMetadata('metadata', metadata)
     switch (this.checkFrequency) {
@@ -140,9 +141,9 @@ export default class ReactNativeBundleUpdater {
     this.applyUpdate()
   }
 
-  // call native module that will relaunch app
+  // call native module to reload app
   private applyUpdate = (): void => {
-    return nativeModule.relaunchApp()
+    NativeModules.DevSettings.reload()
   }
 
   // call native module that downloads the bundle from remoteBundleUrl

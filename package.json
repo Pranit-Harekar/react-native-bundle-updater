@@ -10,7 +10,8 @@
     "ios": "yarn react-native run-ios",
     "android": "yarn react-native run-android",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "bundle": "react-native bundle --platform ios --dev false --entry-file index.js --bundle-output ios/main.jsbundle  --assets-dest ios"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.3.3",

@@ -2,7 +2,11 @@
  * @format
  */
 
-import { AppRegistry, View } from 'react-native'
+import { AppRegistry, View, Text } from 'react-native'
 import { name as appName } from './app.json'
 
-AppRegistry.registerComponent(appName, () => <View />)
+AppRegistry.registerComponent(appName, () => (
+  <View>
+    <Text>Hello</Text>
+  </View>
+))

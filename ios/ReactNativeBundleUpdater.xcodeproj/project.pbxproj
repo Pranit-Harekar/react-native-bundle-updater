@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0039BBC7F0C8F17B7076A963 /* Pods_ReactNativeBundleUpdater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A1E4497FDB4EBD6E855457 /* Pods_ReactNativeBundleUpdater.framework */; };
+		64512319226CB35900C32B0C /* Alamofire+SuggestedDownloadDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64512318226CB35900C32B0C /* Alamofire+SuggestedDownloadDestination.swift */; };
+		6451231B226CB82900C32B0C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 6451231A226CB82900C32B0C /* main.jsbundle */; };
 		647FAC602263C2FF00AD92F3 /* BundleUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647FAC5F2263C2FF00AD92F3 /* BundleUpdater.swift */; };
 		647FAC622263C30C00AD92F3 /* BundleUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = 647FAC612263C30C00AD92F3 /* BundleUpdater.m */; };
-		647FAC662263D0CB00AD92F3 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 647FAC652263D0CB00AD92F3 /* main.jsbundle */; };
 		64D796EF2250211300759F6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D796EE2250211300759F6C /* AppDelegate.swift */; };
-		64D796F12250211300759F6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D796F02250211300759F6C /* ViewController.swift */; };
-		64D796F42250211300759F6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D796F22250211300759F6C /* Main.storyboard */; };
 		64D796F62250211400759F6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D796F52250211400759F6C /* Assets.xcassets */; };
-		64D796F92250211400759F6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D796F72250211400759F6C /* LaunchScreen.storyboard */; };
 		64D797042250211400759F6C /* ReactNativeBundleUpdaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D797032250211400759F6C /* ReactNativeBundleUpdaterTests.swift */; };
 		A0FE533F227C3A42D6E97274 /* Pods_ReactNativeBundleUpdaterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE28A9391731D01818EB279 /* Pods_ReactNativeBundleUpdaterTests.framework */; };
 /* End PBXBuildFile section */
@@ -35,16 +33,14 @@
 		404BBE360E2F9A824A2EC83D /* Pods-ReactNativeBundleUpdater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBundleUpdater.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeBundleUpdater/Pods-ReactNativeBundleUpdater.debug.xcconfig"; sourceTree = "<group>"; };
 		419FC56C5D841D780B2633C9 /* Pods-ReactNativeBundleUpdater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeBundleUpdater.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeBundleUpdater/Pods-ReactNativeBundleUpdater.release.xcconfig"; sourceTree = "<group>"; };
 		53A1E4497FDB4EBD6E855457 /* Pods_ReactNativeBundleUpdater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeBundleUpdater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64512318226CB35900C32B0C /* Alamofire+SuggestedDownloadDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+SuggestedDownloadDestination.swift"; sourceTree = "<group>"; };
+		6451231A226CB82900C32B0C /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
 		647FAC5F2263C2FF00AD92F3 /* BundleUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleUpdater.swift; sourceTree = "<group>"; };
 		647FAC612263C30C00AD92F3 /* BundleUpdater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BundleUpdater.m; sourceTree = "<group>"; };
-		647FAC652263D0CB00AD92F3 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = SOURCE_ROOT; };
 		64CE97A9225021E1000C0066 /* ReactNativeBundleUpdater-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeBundleUpdater-Bridging-Header.h"; sourceTree = "<group>"; };
 		64D796EB2250211300759F6C /* ReactNativeBundleUpdater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeBundleUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D796EE2250211300759F6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64D796F02250211300759F6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		64D796F32250211300759F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64D796F52250211400759F6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		64D796F82250211400759F6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64D796FA2250211400759F6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64D796FF2250211400759F6C /* ReactNativeBundleUpdaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeBundleUpdaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D797032250211400759F6C /* ReactNativeBundleUpdaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeBundleUpdaterTests.swift; sourceTree = "<group>"; };
@@ -82,15 +78,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		647FAC5E2263C27400AD92F3 /* Native Modules */ = {
-			isa = PBXGroup;
-			children = (
-				647FAC5F2263C2FF00AD92F3 /* BundleUpdater.swift */,
-				647FAC612263C30C00AD92F3 /* BundleUpdater.m */,
-			);
-			path = "Native Modules";
-			sourceTree = "<group>";
-		};
 		64D796E22250211300759F6C = {
 			isa = PBXGroup;
 			children = (
@@ -114,14 +101,13 @@
 		64D796ED2250211300759F6C /* ReactNativeBundleUpdater */ = {
 			isa = PBXGroup;
 			children = (
-				647FAC5E2263C27400AD92F3 /* Native Modules */,
-				647FAC652263D0CB00AD92F3 /* main.jsbundle */,
+				6451231A226CB82900C32B0C /* main.jsbundle */,
+				647FAC5F2263C2FF00AD92F3 /* BundleUpdater.swift */,
+				647FAC612263C30C00AD92F3 /* BundleUpdater.m */,
+				64512318226CB35900C32B0C /* Alamofire+SuggestedDownloadDestination.swift */,
 				64D796EE2250211300759F6C /* AppDelegate.swift */,
 				64CE97A9225021E1000C0066 /* ReactNativeBundleUpdater-Bridging-Header.h */,
-				64D796F02250211300759F6C /* ViewController.swift */,
-				64D796F22250211300759F6C /* Main.storyboard */,
 				64D796F52250211400759F6C /* Assets.xcassets */,
-				64D796F72250211400759F6C /* LaunchScreen.storyboard */,
 				64D796FA2250211400759F6C /* Info.plist */,
 			);
 			path = ReactNativeBundleUpdater;
@@ -232,10 +218,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D796F92250211400759F6C /* LaunchScreen.storyboard in Resources */,
 				64D796F62250211400759F6C /* Assets.xcassets in Resources */,
-				647FAC662263D0CB00AD92F3 /* main.jsbundle in Resources */,
-				64D796F42250211300759F6C /* Main.storyboard in Resources */,
+				6451231B226CB82900C32B0C /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +339,8 @@
 			files = (
 				647FAC602263C2FF00AD92F3 /* BundleUpdater.swift in Sources */,
 				647FAC622263C30C00AD92F3 /* BundleUpdater.m in Sources */,
-				64D796F12250211300759F6C /* ViewController.swift in Sources */,
 				64D796EF2250211300759F6C /* AppDelegate.swift in Sources */,
+				64512319226CB35900C32B0C /* Alamofire+SuggestedDownloadDestination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,25 +361,6 @@
 			targetProxy = 64D797002250211400759F6C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		64D796F22250211300759F6C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64D796F32250211300759F6C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		64D796F72250211400759F6C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				64D796F82250211400759F6C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		64D797062250211400759F6C /* Debug */ = {

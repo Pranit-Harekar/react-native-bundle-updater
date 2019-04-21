@@ -11,7 +11,7 @@
 #import "React/RCTEventEmitter.h"
 
 @interface RCT_EXTERN_MODULE(BundleUpdater, NSObject)
-RCT_EXTERN_METHOD(downloadUpdate: (NSString *)url useCellularData:(BOOL *)useCellularData resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+RCT_EXTERN_METHOD(downloadUpdate: (NSString *)url useCellularData:(BOOL *)useCellularData showProgress:(BOOL *) showProgress resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 RCT_EXTERN_METHOD(applyUpdate)
 @end
 
